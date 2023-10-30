@@ -7,8 +7,8 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <elf.h>
+#include <stdlib.h>
 
-void exit_with_error(int code, const char *message);
 void display_magic(unsigned char *ident);
 void display_class(unsigned char class);
 void display_data(unsigned char data);
